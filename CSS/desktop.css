@@ -6,15 +6,21 @@
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    background-color: #F2F2F2;
 
 }
 
-/* nav bar */
+        /* nav bar */
 nav {
     grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 2;
+    height: 5rem;
 }
 
 /* invite button in nav bar */
@@ -28,6 +34,7 @@ nav button {
     background: linear-gradient(#33D35E, #2AB6D9);
 }
 
+/* container for nav links */
 .navLinks {
     display: flex;
     flex-direction: row;
@@ -36,6 +43,7 @@ nav button {
     font-size: .75rem;
 }
 
+/* nav links */
 a:link {
     text-decoration: none;
     color: #9597A5;
@@ -45,4 +53,27 @@ a:link {
 .logo {
     margin-left: 6rem;
     max-width: 100%;
+}
+
+.introSection {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 4;
+    background-image: url("../images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+
+}
+
+.bkgImage {
+    margin-left: 40%;
+    margin-top: -22%;
+}
+
+.introInfo {
+    position: relative;
+}
+
+.introInfo h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 100;
 }
