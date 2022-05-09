@@ -1,0 +1,48 @@
+* {
+    font-family: 'public sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+/* nav bar */
+nav {
+    grid-column: 1 / span 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* invite button in nav bar */
+nav button {
+    border-radius: 1.3rem;
+    height: 2.8rem;
+    width: 10rem;
+    margin-right: 6rem;
+    color: #ffffff;
+    font-size: .75rem;
+    background: linear-gradient(#33D35E, #2AB6D9);
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    width: 21rem;
+    justify-content: space-between;
+    font-size: .75rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: #9597A5;
+}
+
+/* company logo */
+.logo {
+    margin-left: 6rem;
+    max-width: 100%;
+}
