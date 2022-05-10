@@ -158,6 +158,37 @@ a:link {
 /* third section "articles" */
 .articleSection {
     grid-column: 1 / span 12;
+    background-color: #F2F2F2;
+}
+
+.articleFlexContainer {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    margin-left: 6rem;
+    max-width: 80%;
+}
+
+.articleSection h2 {
+    margin-top: 5%;
+    margin-left: 6rem;
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+
+/* sets images in article section to max-width 100%  */
+.currencyImg, .planeImg, .restaurantImg,
+.confettiImg {
+    max-width: 100%;
+}
+
+.author {
+    font-size: 0.6rem;
+    line-height: 1.125rem;
 }
 
 /* footer */
