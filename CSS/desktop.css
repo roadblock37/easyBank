@@ -6,7 +6,7 @@
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(13, 1fr);
+    /* grid-template-rows: repeat(13, 1fr); */
     background-color: #F2F2F2;
 
 }
@@ -60,20 +60,59 @@ a:link {
     grid-row: 2 / span 4;
     background-image: url("../images/bg-intro-desktop.svg");
     background-repeat: no-repeat;
+    background-position-x: 320%;
+    background-position-y: 72%;
+    height: 40rem;
+    
 
 }
 
-.bkgImage {
+/* .bkgImage {
     margin-left: 40%;
     margin-top: -22%;
-}
+} */
 
 .introInfo {
     position: relative;
+    width: 35%;
+    margin-left: 6rem;
+    margin-top: 10%;
 }
 
 .introInfo h1 {
     font-size: 4rem;
     line-height: 5rem;
     font-weight: 100;
+}
+
+.introInfo p {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    width: 90%;
+}
+
+.introInfo button {
+    border-radius: 1.3rem;
+    height: 2.8rem;
+    width: 10rem;
+    margin-right: 6rem;
+    color: #ffffff;
+    font-size: .75rem;
+    background: linear-gradient(#33D35E, #2AB6D9);
+    margin-top: 2rem;
+}
+
+/* second section "why choose easy bank" */
+.chooseSection {
+    grid-column: 1 / span 12;
+}
+
+/* third section "articles" */
+.articleSection {
+    grid-column: 1 / span 12;
+}
+
+/* footer */
+footer {
+    grid-column: 1 / span 12;
 }
