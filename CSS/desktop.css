@@ -191,6 +191,13 @@ a:link {
     line-height: 1.125rem;
 }
 
+.articleHeader {
+    font-size: 1em;
+    line-height: 1.125rem;
+    font-weight: 100;
+    letter-spacing: -0.29px;
+}
+
 /* footer */
 footer {
     grid-column: 1 / span 12;
