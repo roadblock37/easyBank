@@ -105,6 +105,54 @@ a:link {
 /* second section "why choose easy bank" */
 .chooseSection {
     grid-column: 1 / span 12;
+    background-color: #F4F5F7;
+    margin-left: 6rem;
+}
+
+.chooseSection h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 5%;
+}
+
+.chooseSection p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 50%;
+}
+
+.chooseGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 17rem;
+}
+
+.banking p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.25px;
+}
+
+.budgeting p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.25px;
+}
+
+.onboarding p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.25px;
+}
+
+.api p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.25px;
 }
 
 /* third section "articles" */
